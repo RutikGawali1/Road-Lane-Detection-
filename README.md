@@ -26,7 +26,10 @@ I use cv2.GaussianBlur to smooth out edges.
 Gaussian Filter OpenCV Theory
 cv2.GaussianBlur OpenCV API Reference
 
-Conclusion
+
+#Conclusion
+
+
 The project was successful in that the video images clearly show the lane lines are detected properly and lines are very smoothly handled.
 
 It only detects the straight lane lines. It is an advanced topic to handle curved lanes (or the curvature of lanes). We'll need to use perspective transformation and also poly fitting lane lines rather than fitting to straight lines.
